@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio da Imagem Dinâmica</title>
+</head>
+<body>
+    <h1>Imagem Flexível</h1>
+    <p>Você está vendo a imaem completa? Experimente ampliar o tamanho da janela para aproveitar melhor a experiência! &#x1F609</p>
+    <p>
+        <picture>
+            <source media="(max-width: 1030px)" srcset="imagens/paisagem-p.jpg" type="image/jpg">
+            <source media="(max-width: 1230px)" srcset="imagens/paisagem-m.jpg" type="image/jpg">
+            <img src="imagens/paisagem-g.jpg" alt="Imagem Grande">
+        </picture>
+    </p>
+    
+</body>
+</html>
