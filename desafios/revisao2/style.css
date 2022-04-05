@@ -1,0 +1,196 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One&family=Spartan&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One&family=Rajdhani:wght@600&family=Spartan&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One&family=Rajdhani:wght@600&family=RocknRoll+One&family=Spartan&display=swap');
+
+:root {
+    /*PALETA DE CORES*/
+    --verde-escuro: #6D993D;
+    --verde-claro: #9EE650;
+    --rosa-destaque: #E6466F;
+    --verde-escuro2: #1F9975;
+    --verde-claro2: #39E6B3;
+    --rodape: rgb(29, 48, 48);
+
+    /*FONTES*/
+    --titulo-pagina: 'Alumni Sans Inline One', Arial, sans-serif;
+    --titulos: 'RocknRoll One', Helvetica, sans-serif;
+    --menu: 'Rajdhani', Tahoma, sans-serif;
+    --padrao: 'Spartan', Verdana, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--verde-claro);
+    height: 100vh;
+}
+
+header {
+    background-color: white;
+}
+
+header > h1 {
+    font-family: var(--titulo-pagina);
+    font-size: 4em;
+    font-weight: 100;
+    color: rgb(29, 48, 48);
+    text-align: center;
+    line-height: 100px;
+}
+
+header > nav {
+    background-color: var(--verde-escuro);
+    font-family: var(--menu);
+    line-height: 40px;
+    height: 40px;
+    margin: auto;
+    text-align: center;
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.3em;
+    padding: 8px 16px;
+}
+
+main {
+    min-width: 300px;
+    max-width: 840px;
+    background-color: white;
+    margin: 20px auto;
+    padding: 15px 20px;
+    border: solid 1px var(--rodape);
+    border-radius: 10px;
+    box-shadow: 3px 2px 5px rgba(41, 40, 40, 0.308);
+}
+
+main h2 {
+    font-family: var(--titulos);
+    color: var(--verde-escuro2);
+    text-align: center;
+    margin: 20px 0px 20px 0px;
+    text-shadow: 3px 4px 4px rgba(139, 139, 139, 0.295);
+}
+
+main p {
+    font-family: var(--padrao);
+    font-weight: 550;
+    color: black;
+    text-align: justify;
+    margin: 10px 0px;
+}
+
+section > img {
+    display: block;
+    margin: 30px auto;
+}
+
+section > p.sub-titulo {
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: 900;
+    margin: 25px auto;
+}
+
+section#social {
+    background-color: #39e6b27c;
+    outline: solid 20px #39e6b27c;
+    margin: 40px auto;
+
+}
+
+section#social h2 {
+    color: var(--rodape);
+}
+
+div#mapa-mundi {
+    text-align: center;
+    margin: 20px auto;
+}
+
+div#redes {
+    max-width: 200px;
+    margin: auto;
+}
+
+div#abreviacoes {
+    max-width: 200px;
+    margin: 30px auto;
+}
+
+div#abreviacoes li {
+    list-style-type: '\2714\00A0\00A0';
+}
+
+div#botoes {
+    text-align: center;
+}
+
+button {
+    padding: 10px;
+    font-family: var(--menu);
+    font-size: 1.2em;
+    color: white;
+    border-radius: 20px;
+    background-color: gray;
+}
+
+button#btn-destaque {
+    background-color: var(--rosa-destaque);
+}
+
+ul {
+    font-family: var(--padrao);
+    text-align: justify;
+    line-height: 1.5em;
+    list-style-position: inside;
+    list-style-type: none;
+}
+
+picture img {
+    max-width: 100%;
+    display: block;
+    margin: auto;
+}
+
+section#emoji {
+    font-family: var(--padrao);
+}
+
+section#emoji ol {
+    text-align: justify;
+    list-style-position: inside;
+    padding: 15px 80px;
+    text-indent: 20px;
+    columns: 2;
+}
+section#emoji ul {
+    padding: 15px 0px;
+    list-style-type: square;
+}
+
+footer {
+    background-color: var(--rodape);
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+
+footer > p {
+    font-family: var(--padrao);
+    color: white;
+    font-weight: 600;
+    font-size: 0.8em;
+}
+
+footer a {
+    color: var(--verde-claro2);
+    font-weight: 900;
+    text-decoration: none;
+}
