@@ -29,13 +29,14 @@ header h1 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -60%);
+    font-size: 6vw;
 }
 
 header p {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, 100%);
+    transform: translate(-50%, 200%);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -60,8 +61,12 @@ main {
     font-family: var(--fonte-texto);
 }
 
+main p {
+    font-size: 4vw;
+}
+
 section.impar {
-    padding: 15px 25px;
+    padding: 10vh 25px;
     border-bottom: solid 1px gray;
 }
 
