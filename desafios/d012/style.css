@@ -118,6 +118,8 @@ footer {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     font-size: 0.8em;
+    height: 50px;
+    line-height: 50px;
 }
 
 footer a {
