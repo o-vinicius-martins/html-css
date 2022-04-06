@@ -88,7 +88,7 @@ header > h1 {
     font-weight: 100;
     color: rgb(29, 48, 48);
     text-align: center;
-    line-height: 100px;
+    line-height: 65px;
 }
 
 header > nav {
@@ -104,7 +104,25 @@ nav > a {
     text-decoration: none;
     color: white;
     font-size: 1.3em;
-    padding: 8px 16px;
+    max-height: 40px;
+    padding: 7px 16px;
+    border-radius: 10px;
+}
+
+nav > a#nav-destaque {
+    background-color: var(--rodape);
+    color: var(--rosa-destaque);
+    border-radius: 10px;
+}
+
+nav > a#nav-destaque:hover {
+    background-color: rgb(13, 22, 22);
+    transition-duration: 1200ms;
+}
+
+nav > a:hover {
+    background-color: var(--rodape);
+    transition-duration: 1200ms;
 }
 /*================================*/
 /*===MAIN===*/
@@ -112,7 +130,7 @@ main {
     min-width: 300px;
     max-width: 840px;
     background-color: white;
-    margin: 20px auto;
+    margin: 25px auto;
     padding: 15px 20px;
     border: solid 1px var(--rodape);
     border-radius: 10px;
@@ -265,8 +283,8 @@ img#thumb-video {
 /*===FOOTER===*/
 footer {
     background-color: var(--rodape);
-    height: 50px;
-    line-height: 50px;
+    height: 40px;
+    line-height: 40px;
     text-align: center;
 }
 
