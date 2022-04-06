@@ -1,4 +1,9 @@
-# html-css
- Exercícios de HTML e CSS realizados em curso.
+## Exercícios e Práticas de HTML 5 e CSS 3
 
-<a href="www.martins-vinicius.github.io/html-css/desafios/d001/index.html" rel="next" target="_blank">Desafio 001</a>
+Bem-vindo ao meu repositório público de estudos em HTML 5 e CSS 3, tendo com base o curso do [Professor Gustavo Guanabara](https://github.com/gustavoguanabara), do [Curso em Vídeo](https://github.com/cursoemvideo).
+
+### Material
+
+-[Exercícios](https://github.com/martins-vinicius/html-css/tree/main/exercicios)
+
+-[Desafios](https://github.com/martins-vinicius/html-css/tree/main/desafios)
