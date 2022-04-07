@@ -6,17 +6,73 @@ body {
 
 table {
     background-color: white;
-    border: solid 2px black;
+    border: solid 2px;
     border-collapse: collapse;
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    font-size: 1.5em;
-    width: 400px;
-    height: 400px;
+    font-weight: normal;
+    font-size: 1em;
+    width: 250px;
+    height: 250px;
+    margin: 20px auto;
+}
+
+table#boletim-escolar {
+    height: 350px;
+    width: 600px;
+}
+
+th {
+    background-color: lightskyblue;
+    padding: 10px;
+    border: solid 1px;
+    vertical-align: middle;
+    text-align: center;
 }
 
 td {
-    padding: 20px;
-    border: solid 1px black;
+    padding: 10px;
+    border: solid 1px;
+    vertical-align: middle;
     text-align: center;
+}
+
+td.resultado {
+    background-color: lightskyblue;
+    font-weight: bold;
+}
+
+#se {
+    border-left: solid 2px;
+    border-top: solid 2px;
+}
+
+#sc {
+    border-top: solid 2px;
+}
+
+#sd {
+    border-top: solid 2px;
+    border-right: solid 2px;
+}
+
+#ce {
+    border-left: solid 2px;
+}
+
+#cd {
+    border-right: solid 2px;
+}
+
+#ie {
+    border-left: solid 2px;
+    border-bottom: solid 2px;
+}
+
+#ic {
+    border-bottom: solid 2px;
+}
+
+#id {
+    border-bottom: solid 2px;
+    border-right: solid 2px;
 }
