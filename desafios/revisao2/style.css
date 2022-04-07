@@ -98,6 +98,7 @@ header > nav {
     height: 40px;
     margin: auto;
     text-align: center;
+    max-width: 100%;
 }
 
 nav > a {
@@ -107,6 +108,7 @@ nav > a {
     max-height: 40px;
     padding: 7px 16px;
     border-radius: 10px;
+    max-width: 100%;
 }
 
 nav > a#nav-destaque {
@@ -130,7 +132,7 @@ main {
     min-width: 300px;
     max-width: 840px;
     background-color: white;
-    margin: 25px auto;
+    margin: 25px auto 30px auto;
     padding: 15px 20px;
     border: solid 1px var(--rodape);
     border-radius: 10px;
@@ -141,8 +143,14 @@ main h2 {
     font-family: var(--titulos);
     color: var(--verde-escuro2);
     text-align: center;
-    margin: 20px 0px 20px 0px;
+    margin: 20px 0px;
     text-shadow: 3px 4px 4px rgba(139, 139, 139, 0.295);
+}
+
+main h3 {
+    font-family: var(--padrao);
+    font-weight: bold;
+    margin: 20px 0px;
 }
 
 main p {
@@ -218,6 +226,7 @@ section#emoji ul {
 div#mapa-mundi {
     text-align: center;
     margin: 20px auto;
+    max-width: 90%;
 }
 
 div#redes {
@@ -272,6 +281,16 @@ picture img {
     margin: auto;
 }
 
+img {
+    max-width: 100%;
+}
+
+section > a > img {
+    max-width: 100%;
+    display: block;
+    margin: auto;
+}
+
 img#thumb-video {
     display: block;
     margin: 30px auto;
@@ -283,8 +302,7 @@ img#thumb-video {
 /*===FOOTER===*/
 footer {
     background-color: var(--rodape);
-    height: 40px;
-    line-height: 40px;
+    height: 50px;
     text-align: center;
 }
 
@@ -293,11 +311,17 @@ footer > p {
     color: white;
     font-weight: 600;
     font-size: 0.8em;
+    line-height: 25px;
 }
 
 footer a {
     color: var(--verde-claro2);
     font-weight: 900;
     text-decoration: none;
+}
+
+footer span {
+    font-size: 0.8em;
+    font-weight: 100;
 }
 /*=================================*/
